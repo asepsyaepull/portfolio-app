@@ -1,4 +1,3 @@
-import localFont from "next/font/local";
 import Profile from "@/components/card-section/profile";
 import Intro from "@/components/card-section/intro";
 import PortfolioImage from "@/components/card-section/portfolio-image";
@@ -9,17 +8,6 @@ import ThemeToggle from "@/components/card-section/theme-toggle";
 import Resources from "@/components/card-section/resources";
 import SocialLinks from "@/components/card-section/social-links";
 import CopyEmail from "@/components/card-section/copy-email";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export default function Home() {
   return (
