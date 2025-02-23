@@ -1,18 +1,31 @@
-import { ArrowUpRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import React from 'react';
+import { Card } from '@/components/ui/card'; // Import the Card component
+import Image from 'next/image';
 
-export default function About() {
+const About = () => {
     return (
-        <div className="rounded-3xl bg-[#18181b] p-8 flex flex-col justify-between">
-            <div>
-                <span className="text-sm font-medium mb-4 block">ABOUT</span>
-                <p className="text-2xl text-white">
-                    I am passionate about design and frontend development, and I enjoy solving problems.
-                </p>
+        <div className="grid grid-cols-12 gap-6 mt-6">
+            <div className="col-span-4 bg-zinc-900 border border-slate-700 rounded-lg">
+                <Image
+                    src="/Images/profile.jpeg"
+                    alt="Profile"
+                    width={500}
+                    height={500}
+                    className="w-90 h-80 object-cover rounded-lg"
+                />
             </div>
-            <Button variant="ghost" size="icon" className="w-10 h-10 rounded-full ml-auto">
-                <ArrowUpRight className="w-5 h-5" />
-            </Button>
+            <Card className="bg-zinc-900 border border-slate-700 col-span-8 rounded-lg p-6">
+                <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 rounded-full mb-4">
+                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                    <span className="text-sm text-white">Available for Freelance</span>
+                </div>
+                <h2 className="text-2xl text-white font-medium mb-2">Hi, I'm Asep Syaepul —<br />Crafting Creative Code!</h2>
+                <p className="text-gray-400">
+                    As a creative developer, I blend code and design to build unique, user-centric experiences. Let's turn your ideas into a dynamic and engaging digital reality!
+                </p>
+            </Card>
         </div>
-    )
-}
+    );
+};
+
+export default About;
