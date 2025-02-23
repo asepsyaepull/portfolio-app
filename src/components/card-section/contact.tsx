@@ -11,10 +11,10 @@ const Contact = () => {
     return (
         <div className="mt-12 grid grid-cols-12 gap-6">
             <div className="col-span-8 bg-zinc-900 border border-slate-700 rounded-lg p-6">
-                <h2 className="text-white text-xl mb-4">✨ Let's Stay Connected!</h2>
+                <h2 className="text-white text-xl mb-4">✨ Let&apos;s Stay Connected!</h2>
                 <p className="text-gray-400">
                     Follow me on social media for design inspiration, behind-the-scenes updates, and the latest projects.
-                    Let's create and grow together!
+                    Let&apos;s create and grow together!
                 </p>
             </div>
             <div className="col-span-4 grid grid-cols-3 gap-4">

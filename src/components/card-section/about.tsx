@@ -19,7 +19,7 @@ const About = () => {
                     <span className="w-2 h-2 bg-green-500 rounded-full"></span>
                     <span className="text-sm text-white">Available for Freelance</span>
                 </div>
-                <h2 className="text-2xl text-white font-medium mb-2">Hi, I'm Asep Syaepul —<br />Crafting Creative Code!</h2>
+                <h2 className="text-2xl text-white font-medium mb-2">Hi, I&apos;m Asep Syaepul —<br />Crafting Creative Code!</h2>
                 <p className="text-gray-400">
                     As a creative developer, I blend code and design to build unique, user-centric experiences. Let's turn your ideas into a dynamic and engaging digital reality!
                 </p>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { Card } from '@/components/ui/card'; // Import the Card component
+import Image from 'next/image'; // Import the Image component
 
 const PortfolioCard = ({ image, title, description }: {
     image: string;
@@ -8,7 +9,7 @@ const PortfolioCard = ({ image, title, description }: {
     description: string;
 }) => (
     <Card className="bg-zinc-900 border border-slate-700 rounded-2xl p-6 flex items-center gap-6 group hover:bg-[#2C2C2E] transition-all shadow-lg">
-        <img src={image} alt={title} className="w-24 h-24 rounded-xl object-cover" />
+        <Image src={image} alt={title} width={96} height={96} className="rounded-xl object-cover" />
         <div className="flex-1 pr-6">
             <h3 className="text-white text-xl font-semibold">{title}</h3>
             <p className="text-gray-400 text-base line-clamp-2">{description}</p>
