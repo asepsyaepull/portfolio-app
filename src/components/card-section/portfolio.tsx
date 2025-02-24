@@ -29,11 +29,6 @@ const PortfolioHeader = () => (
         <p className="text-gray-400 text-lg">
             Discover my portfolio of projects, where creativity meets functionality. Each work reflects my passion for crafting thoughtful designs and innovative digital experiences.
         </p>
-        {/* <div className='rounded-2xl p-6 flex justify-end gap-6'>
-            <button className="text-white p-3 rounded-full bg-white/5 group-hover:bg-white/10 transition-colors">
-                <ArrowUpRight size={24} />
-            </button>
-        </div> */}
     </Card>
 );
 
@@ -62,7 +57,7 @@ const Portfolio = () => {
     ];
 
     return (
-        <div className="grid grid-cols-2 space-x-4 my-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
             <PortfolioHeader />
             <div className="space-y-4">
                 {portfolioItems.map((item, index) => (

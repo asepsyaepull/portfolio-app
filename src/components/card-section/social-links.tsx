@@ -13,7 +13,7 @@ const socialLinks = [
 
 export default function SocialLinks() {
     return (
-        <div className="rounded-3xl bg-[#18181b] p-8 flex flex-wrap gap-4">
+        <div className="rounded-3xl bg-zinc-900 border border-slate-700 p-8 flex flex-wrap gap-4 justify-center md:justify-start">
             {socialLinks.map((social) => (
                 <Button key={social.name} variant="ghost" size="icon" className="w-12 h-12 rounded-full bg-[#090909]">
                     <span className="sr-only">{social.name}</span>
