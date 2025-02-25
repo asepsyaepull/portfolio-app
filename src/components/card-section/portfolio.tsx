@@ -57,7 +57,7 @@ const Portfolio = () => {
     ];
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <PortfolioHeader />
             <div className="space-y-4">
                 {portfolioItems.map((item, index) => (
