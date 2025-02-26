@@ -8,7 +8,7 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
     return (
-        <div className="min-h-screen bg-[#0A0A0A] p-6">
+        <div className="min-h-screen bg-white dark:bg-zinc-900 p-6">
             <div className="max-w-6xl mx-auto">
                 <Navbar />
                 <main>{children}</main>
