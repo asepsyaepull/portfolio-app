@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Moon, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import ThemeToggle from './theme-toggle';
 
 const Navbar = () => {
