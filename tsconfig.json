@@ -16,6 +16,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js", "src/components/languange-provider/providers.tsx"],
   "exclude": ["node_modules"]
 }
