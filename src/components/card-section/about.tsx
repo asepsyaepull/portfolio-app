@@ -5,7 +5,7 @@ import Image from 'next/image';
 const About = () => {
     return (
         <div className="grid grid-cols-12 gap-6 mt-6 md:gap-4">
-            <div className="col-span-12 md:col-span-4 dark:bg-zinc-900 bg-white border dark:border-slate-700 border-gray-300 rounded-lg">
+            <div className="col-span-12 md:col-span-4 bg-white border dark:bg-zinc-900  border-gray-300 dark:border-slate-700 rounded-lg">
                 <Image
                     src="/Images/profile.jpeg"
                     alt="Profile"

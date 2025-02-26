@@ -8,7 +8,7 @@ const PortfolioCard = ({ image, title, description }: {
     title: string;
     description: string;
 }) => (
-    <Card className="bg-zinc-900 border border-slate-700 rounded-2xl p-6 flex items-center gap-6 group hover:bg-[#2C2C2E] transition-all shadow-lg">
+    <Card className="bg-white dark:bg-zinc-900 border border-gray-300 dark:border-slate-700 rounded-2xl p-6 flex items-center gap-6 group hover:bg-gray-100 dark:hover:bg-slate-800 transition-all shadow-lg">
         <Image src={image} alt={title} width={96} height={96} className="rounded-xl object-cover" />
         <div className="flex-1 pr-6">
             <h3 className="text-white text-xl font-semibold">{title}</h3>
@@ -21,7 +21,7 @@ const PortfolioCard = ({ image, title, description }: {
 );
 
 const PortfolioHeader = () => (
-    <Card className="bg-zinc-900 border border-slate-700 rounded-2xl p-8 shadow-lg">
+    <Card className="bg-white border dark:bg-zinc-900  border-gray-300 dark:border-slate-700 rounded-2xl p-8 shadow-lg">
         <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">📁</span>
             <h2 className="text-white text-2xl font-bold">My Creative Showcase</h2>
